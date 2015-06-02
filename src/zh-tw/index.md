@@ -1,3 +1,6 @@
+---
+layout: index.php
+---
 ## 報名<a name="booking"></a>
 
 ## 大會<a name="conference"></a>
