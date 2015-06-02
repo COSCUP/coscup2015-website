@@ -8,8 +8,8 @@
 
 <!--locales-->
 <!--[if gt IE 8]><!-->
-  <link rel="localization" href="<?php echo $theme_assets_uri;?>locales/manifest.json">
-  <script src="<?php echo $theme_assets_uri;?>js/lib/l20n.min.js"></script>
+  <link rel="localization" href="<?php echo $assets_path;?>/locales/manifest.json">
+  <script src="<?php echo $assets_path;?>/js/lib/l20n.min.js"></script>
 <!--<![endif]-->
 
 <!--fb shareing-->
@@ -21,16 +21,16 @@
 <meta property="og:image" content="http://coscup.org/2015/assets/og-image.jpg">
 
 <!--stylings-->
-<link rel="stylesheet" href="<?php echo $theme_assets_uri;?>normalize.min.css" type= "text/css">
-<link rel="stylesheet" media="only screen and (max-width:768px)" href="<?php echo $theme_assets_uri;?>mobile.css?<?php echo $cachebusting;?>" type= "text/css">
-<link rel="stylesheet" media="screen and (min-width:769px)" href="<?php echo $theme_assets_uri;?>style.css?<?php echo $cachebusting;?>" type="text/css">
+<link rel="stylesheet" href="<?php echo $assets_path;?>/normalize.min.css" type= "text/css">
+<link rel="stylesheet" media="only screen and (max-width:768px)" href="<?php echo $assets_path;?>/mobile.css?<?php echo $cachebusting;?>" type= "text/css">
+<link rel="stylesheet" media="screen and (min-width:769px)" href="<?php echo $assets_path;?>/style.css?<?php echo $cachebusting;?>" type="text/css">
 
 <!--favicon-->
-<link rel="shortcut icon" href="<?php echo $theme_assets_uri;?>favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $assets_path;?>/favicon.ico" type="image/x-icon">
 
 <!--phone-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="apple-touch-icon" href="<?php echo $theme_assets_uri;?>ios-fav.jpg">
+<link rel="apple-touch-icon" href="<?php echo $assets_path;?>/ios-fav.jpg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
