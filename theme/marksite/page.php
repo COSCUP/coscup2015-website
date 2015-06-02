@@ -2,72 +2,10 @@
 $theme_assets_uri = $home_path."assets/";
 $cachebusting = rand(0, 1000);
 ?>
-
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title><?php echo $title; ?> | 2014 COSCUP</title>
-
-<meta name="keywords" content="COSCUP, COSCUP2014, 開源人年會, Conference for Open Source Coders, Users and Promoters Open Source, Free Software, 自由軟體, 開放原始碼, 研討會, 社群, FLOSS">
-<meta name="description" content="COSCUP 2014, 7/19-20 中央研究院。台灣 Opens Source 相關社群聯合舉辦的大型開放源碼研討會。讓世界各地的 FLOSS 愛好者、專家藉由開源人年會齊聚一堂，分享經驗、想法與新技術，共同激發群眾投入貢獻開源 / 自由軟體。">
-<meta name="COMPANY" content="COSCUP">
-
-<!--locales-->
-<!--[if gt IE 8]><!-->
-  <link rel="localization" href="<?php echo $theme_assets_uri;?>locales/manifest.json">
-  <script type="text/javascript" src="<?php echo $theme_assets_uri;?>js/lib/l20n.min.js"></script>
-<!--<![endif]-->
-
-<!--fb shareing-->
-<meta property="og:title" content="2014 COSCUP" />
-<meta name="og:description" content="COSCUP 2014, 7/19-20 中央研究院。台灣 Opens Source 相關社群聯合舉辦的大型開放源碼研討會。讓世界各地的 FLOSS 愛好者、專家藉由開源人年會齊聚一堂，分享經驗、想法與新技術，共同激發群眾投入貢獻開源 / 自由軟體。">
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://coscup.org/2014/zh-tw/" />
-<meta property="og:site_name" content="2014 COSCUP" />
-<meta property="og:image" content="http://coscup.org/2014/assets/og-image.jpg" />
-
-<!--phone-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-<link rel="apple-touch-icon" href="<?php echo $theme_assets_uri;?>ios-fav.jpg" />
-<link href="<?php echo $theme_assets_uri;?>normalize.css" type= "text/css" rel="stylesheet" />
-<link media="only screen and (max-width:768px)" href="<?php echo $theme_assets_uri;?>mobile.css?<?php echo $cachebusting;?>" type= "text/css" rel="stylesheet" />
-<link media="screen and (min-width:769px)" href="<?php echo $theme_assets_uri;?>style.css?<?php echo $cachebusting;?>" type="text/css" rel="stylesheet" />
-<!--favicon-->
-<link type="image/x-icon" href="<?php echo $theme_assets_uri;?>favicon.ico" rel="shortcut icon">
-
-<!-- GA -->
-<script>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-12923351-1']);
-    _gaq.push(['_setDomainName', 'coscup.org']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-
-<script src="<?php echo $theme_assets_uri;?>js/lib/require.js"></script>
-<script>
-    require.config({
-      baseUrl: "<?php echo $theme_assets_uri;?>js"
-    });
-    //Load common code that includes config, then load the specific
-    //logic for this page. 
-    //Do the require calls here instead of a separate file 
-    //so after a build there are only 2 HTTP requests instead of three.
-    require(['config', 'main-menu', 'sidebar-sponsor'], function () {
-      require(['page/<?php echo $this->current[1];?>'], null, function(err) {
-        var failedId = err.requireModules && err.requireModules[0];
-        console.log(failedId + ' is not existing');
-      });
-    });
-</script>
-
+  <?php include 'header.php' ?>
 </head>
 <body>
 <div id="header">
@@ -94,7 +32,7 @@ $cachebusting = rand(0, 1000);
         <ul id="mainNav" class="no-decoration">
           <?php echo $this->menu(1); ?>
         </ul>
-      </nav> 
+      </nav>
     </div>
 </div>
 <!--Main-->
