@@ -13,33 +13,10 @@ $current_path = rtrim($home_path.$this->current[0], "/");
   <div id="header">
     <header>
       <div class="wrap">
-        <nav>
-          <div id="logo"><a href="<?php echo $home_path;?>"><img src="<?php echo $assets_path;?>/images/logo.png"/></a></div>
-          <ul class="main menu">
-            <li><a href="<?php echo $home_path;?>/schedule.html">議程</a></li>
-            <li><a href="<?php echo $home_path;?>/about.html">簡介</a></li>
-            <li><a href="<?php echo $home_path;?>/sponsor.html">贊助</a></li>
-            <li><a href="<?php echo $home_path;?>/">部落格</a></li>
-          </ul>
-          <div class="archive button"><a href="<?php echo $home_path;?>/archive.html">more</a></div>
-        </nav>
+        <div id="logo"><a href="<?php echo $home_path;?>"><img src="<?php echo $assets_path;?>/images/logo.png"/></a></div>
+        <?php include 'navbar.php';?>
       </div>
     </header>
-  </div>
-
-  <div id="main">
-  <div class="wrap">
-    <!--Sponsor-->
-    <div id="sponsor" class="empty">
-      <h2 data-l10n-id="sponsorship">贊助 COSCUP</h2>
-      <p data-l10n-id="mailtoSponsor"><a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a></p>
-    </div>
-    <div id="mySwipe" style='max-width:500px;margin:0 auto' class="swipe empty">
-    </div>
-    <div id="content">
-      <?php echo $transformed; ?>
-    </div>
-  </div>
   </div>
 
   <div id="content">

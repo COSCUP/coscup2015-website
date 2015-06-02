@@ -2,7 +2,7 @@
 $home_path = rtrim($home_path, "/");
 $cachebusting = rand(0, 1000);
 $assets_path = $home_path."/assets";
-$current_path = rtrim($home_path.$this->current[0], "/");
+$current_path = rtrim($home_path."/".$this->current[0], "/");
 ?>
 <!DOCTYPE html>
 <html class="no-js">

@@ -1,9 +1,9 @@
 <nav>
   <ul class="main menu">
-    <li><a href="{{ baseUrl }}/schedule.html">議程</a></li>
-    <li><a href="{{ baseUrl }}/about.html">簡介</a></li>
-    <li><a href="{{ baseUrl }}/sponsor.html">贊助</a></li>
-    <li><a href="{{ blogUrl }}/">部落格</a></li>
+    <li><a href="<?php echo $current_path;?>/schedule">議程</a></li>
+    <li><a href="<?php echo $current_path;?>/about">簡介</a></li>
+    <li><a href="<?php echo $current_path;?>/sponsor">贊助</a></li>
+    <li><a href="<?php echo $current_path;?>/">部落格</a></li>
   </ul>
 </nav>
 
