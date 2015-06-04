@@ -39,13 +39,16 @@ $(document).ready(function () {
       }
     }
 
-    $(window).resize(function () {
+    function bindCheckScroll() {
       if ($(window).width() <= 599) {
         $(window).on('scroll', checkScroll);
       } else {
         $(window).off('scroll', checkScroll);
       }
-    });
+    }
+
+    bindCheckScroll();
+    $(window).resize(bindCheckScroll);
   }
 
   featuresFocus();
