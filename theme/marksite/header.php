@@ -25,8 +25,7 @@
 
 <!--stylings-->
 <link rel="stylesheet" href="<?php echo $assets_path;?>/normalize.min.css" type= "text/css">
-<link rel="stylesheet" media="only screen and (max-width:768px)" href="<?php echo $assets_path;?>/mobile.css?<?php echo $cachebusting;?>" type= "text/css">
-<link rel="stylesheet" media="screen and (min-width:769px)" href="<?php echo $assets_path;?>/style.css?<?php echo $cachebusting;?>" type="text/css">
+<link rel="stylesheet" href="<?php echo $assets_path;?>/style.css?<?php echo $cachebusting;?>" type="text/css">
 
 <!--favicon-->
 <link rel="shortcut icon" href="<?php echo $assets_path;?>/favicon.ico" type="image/x-icon">

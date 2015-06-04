@@ -26,6 +26,10 @@ a {
   flex: 1;
 }
 
+.thin.wrap {
+  max-width: 660px;
+}
+
 /* header */
 
 #header {
@@ -285,6 +289,7 @@ ul.menu {
 
 .main.content a {
   color: #3b9838;
+  border-bottom: 1px solid transparent;
 }
 
 .main.content a:hover {
@@ -321,5 +326,11 @@ aside.right {
   line-height: 1.8em;
 }
 
-.aside .banner {
+.aside a {
+  color: #3b9838;
+  border-bottom: 1px solid transparent;
+}
+
+.aside a:hover {
+  border-bottom: 1px dashed #3b9838;
 }

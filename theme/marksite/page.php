@@ -17,7 +17,7 @@ $current_path = rtrim($home_path.$this->current[0], "/");
   </header>
 
   <div id="content">
-    <div class="main content wrap">
+    <div class="main content thin wrap">
       <?php echo $transformed; ?>
     </div>
     <aside class="left aside">
@@ -45,6 +45,7 @@ $current_path = rtrim($home_path.$this->current[0], "/");
       </section>
       <section>
         <div class="title">贊助 COSCUP</div>
+        <p>如果您欲贊助 COSCUP，請與 <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a> 聯絡。</p>
       </section>
     </aside>
   </div>
