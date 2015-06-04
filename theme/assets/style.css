@@ -112,9 +112,17 @@ a {
 
 /* events */
 
-#events {
-  display: flex;
-  flex-flow: row wrap;
+@media screen and (min-width: 600px) {
+  #events {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #events {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* block */
@@ -137,16 +145,16 @@ a {
 @media screen and (min-width: 600px) {
   .feature.block {
     display: flex;
-    flex-flow: row wrap;
     padding: 2.3em 4em;
-    width: 40%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 599px) {
   .feature.block {
     display: flex;
-    flex-flow: column;
+    flex: 1 0 250px;
+    flex-direction: column;
     padding: 0.8em 1.5em;
   }
 }
@@ -273,14 +281,17 @@ ul.menu {
 
 /* content */
 
-#content {
-  display: flex;
-  justify-content: space-around;
+@media screen and (min-width: 600px) {
+  #content {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 599px) {
   #content {
-    flex-flow: column nowrap;
+    display: flex;
+    flex-direction: column;
   }
 }
 
