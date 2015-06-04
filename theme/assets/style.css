@@ -266,6 +266,12 @@ ul.menu {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 599px) {
+  #content {
+    flex-flow: column nowrap;
+  }
+}
+
 /* main content */
 
 .main.content {
