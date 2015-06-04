@@ -222,6 +222,12 @@ ul.menu {
   border: none;
 }
 
+@media screen and (min-width: 600px) {
+  .index #header .main.menu {
+    display: none;
+  }
+}
+
 .main.menu li a {
   color: #424242;
   font-size: 18px;

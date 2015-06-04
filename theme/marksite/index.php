@@ -8,10 +8,11 @@ $current_path = rtrim($home_path.$this->current[0], "/");
 <head>
   <?php include 'header.php' ?>
 </head>
-<body>
+<body class="index">
   <header id="header">
     <div class="wrap">
       <a id="logo" href="<?php echo $home_path;?>"><img src="<?php echo $assets_path;?>/images/logo.png"/>&nbsp;</a>
+      <?php include 'navbar.php';?>
       <?php include 'locale.php';?>
     </div>
   </header>
