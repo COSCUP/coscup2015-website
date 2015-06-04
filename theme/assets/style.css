@@ -162,12 +162,15 @@ a {
   }
 }
 
-.feature.block:hover {
+.feature.block:hover,
+.feature.block.hover {
   background: #ababab;
 }
 
 .feature.block:hover .title,
-.feature.block:hover .content {
+.feature.block.hover .title,
+.feature.block:hover .content,
+.feature.block.hover .content {
   color: #000;
 }
 

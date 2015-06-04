@@ -9,6 +9,10 @@
 <!--browser-->
 <script src="<?php echo $assets_path;?>/js/prefixfree.min.js"></script>
 
+<!--jquery-->
+<script src="<?php echo $assets_path;?>/js/jquery.min.js"></script>
+<script src="<?php echo $assets_path;?>/js/scroll.js"></script>
+
 <!--locales-->
 <!--[if gt IE 8]><!-->
   <link rel="localization" href="<?php echo $assets_path;?>/locales/manifest.json">
@@ -23,7 +27,7 @@
 <meta property="og:site_name" content="2015 COSCUP">
 <meta property="og:image" content="http://coscup.org/2015/assets/og-image.jpg">
 
-<!--stylings-->
+<!--stylesheets-->
 <link rel="stylesheet" href="<?php echo $assets_path;?>/normalize.min.css" type= "text/css">
 <link rel="stylesheet" href="<?php echo $assets_path;?>/style.css?<?php echo $cachebusting;?>" type="text/css">
 
