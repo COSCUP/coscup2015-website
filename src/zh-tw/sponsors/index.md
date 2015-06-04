@@ -13,11 +13,11 @@ layout: nosides.php
 
 ## 白銀級贊助
 
-[![](/assets/images/sponsor-archilife.jpg)](http://www.archilife.org/)
+[![](/2015/zh-tw/assets/images/sponsor-archilife.jpg)](http://www.archilife.org/)
 
 ## 青銅級贊助
 
-[![](/assets/images/sponsor-wabow.jpg)](http://www.wabow.com/)
+[![](/2015/zh-tw/assets/images/sponsor-wabow.jpg)](http://www.wabow.com/)
 
 ## 協辦單位
 
