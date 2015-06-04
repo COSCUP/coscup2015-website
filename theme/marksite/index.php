@@ -1,8 +1,7 @@
 <?php
-$home_path = rtrim($home_path, "/");
 $cachebusting = rand(0, 1000);
-$assets_path = $home_path."/assets";
-$current_path = rtrim($home_path."/".$this->current[0], "/");
+$assets_path = $home_path."assets";
+$current_path = rtrim($home_path.$this->current[0], "/");
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -10,17 +9,14 @@ $current_path = rtrim($home_path."/".$this->current[0], "/");
   <?php include 'header.php' ?>
 </head>
 <body>
-  <div id="header">
-    <header>
-      <div class="wrap">
-        <nav>
-          <div id="logo"><a href="<?php echo $home_path;?>/"><img src="<?php echo $assets_path;?>/images/logo.png"/></a></div>
-          <?php include 'locale.php'; ?>
-        </nav>
-      </div>
-    </header>
-    <div id="header-image"></div>
-  </div>
+  <header id="header">
+    <div class="wrap">
+      <a id="logo" href="<?php echo $home_path;?>"><img src="<?php echo $assets_path;?>/images/logo.png"/>&nbsp;</a>
+      <?php include 'locale.php';?>
+    </div>
+  </header>
+  <div id="header-image"></div>
+  <div id="mobile-header-image"><img src="<?php echo $assets_path;?>/images/mobile-header.jpg"/></div>
 
   <div id="content">
     <div class="main content wrap">

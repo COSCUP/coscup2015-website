@@ -6,6 +6,9 @@
 <meta name="keywords" content="COSCUP, COSCUP2015, 開源人年會, Conference for Open Source Coders, Users and Promoters Open Source, Free Software, 自由軟體, 開放原始碼, 研討會, 社群, FLOSS">
 <meta name="description" content="COSCUP 2015, 8/15-16 中央研究院。台灣 Opens Source 相關社群聯合舉辦的大型開放源碼研討會。讓世界各地的 FLOSS 愛好者、專家藉由開源人年會齊聚一堂，分享經驗、想法與新技術，共同激發群眾投入貢獻開源 / 自由軟體。">
 
+<!--browser-->
+<script src="<?php echo $assets_path;?>/js/prefixfree.min.js"></script>
+
 <!--locales-->
 <!--[if gt IE 8]><!-->
   <link rel="localization" href="<?php echo $assets_path;?>/locales/manifest.json">
