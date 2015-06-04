@@ -115,6 +115,7 @@ a {
 @media screen and (min-width: 600px) {
   #events {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -142,19 +143,20 @@ a {
 
 /* feature block */
 
+.feature.block {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 @media screen and (min-width: 600px) {
   .feature.block {
-    display: flex;
     padding: 2.3em 4em;
-    width: 50%;
   }
 }
 
 @media screen and (max-width: 599px) {
   .feature.block {
-    display: flex;
-    flex: 1 0 250px;
-    flex-direction: column;
     padding: 0.8em 1.5em;
   }
 }
