@@ -31,11 +31,11 @@ $current_path = rtrim($home_path.$this->current[0], "/");
       </section>
       <section>
         <div class="title">白銀級贊助</div>
-        <div class="sponser banner"><a href="http://www.archilife.org/"><img src="images/sponsor-archilife.jpg" alt="祐生研究基金會" /></a></div>
+        <div class="sponser banner"><a href="http://www.archilife.org/"><img src="<?php echo $assets_path;?>/images/sponsor-archilife.jpg" alt="祐生研究基金會" /></a></div>
       </section>
       <section>
         <div class="title">青銅級贊助</div>
-        <div class="sponser banner"><a href="http://www.wabow.com/"><img src="images/sponsor-wabow.jpg" alt="哇寶國際資訊" /></a></div>
+        <div class="sponser banner"><a href="http://www.wabow.com/"><img src="<?php echo $assets_path;?>/images/sponsor-wabow.jpg" alt="哇寶國際資訊" /></a></div>
       </section>
       <section>
         <div class="title">協辦單位</div>
