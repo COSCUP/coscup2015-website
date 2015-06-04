@@ -139,14 +139,14 @@ a {
     display: flex;
     flex-flow: row wrap;
     padding: 2.3em 4em;
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media screen and (max-width: 599px) {
   .feature.block {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     padding: 0.8em 1.5em;
   }
 }
@@ -233,6 +233,12 @@ ul.menu {
   font-size: 18px;
   font-weight: 400;
   border: none;
+}
+
+@media screen and (max-width: 599px) {
+  .main.menu li a {
+    padding: 0 0.2em;
+  }
 }
 
 .main.menu li a:hover {
