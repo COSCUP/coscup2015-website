@@ -1,5 +1,11 @@
 <menu "menu">
-<sponsorship "Sponsorship">
+<program "Program">
+<about "About">
+<sponsorship {
+  *short: "Sponsorship",
+  long: "Sponsorship"
+}>
+<blog "Blog">
 <mailtoSponsor """
   If you are interested in sponsoring COSCUP, please contact
   <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a>.
@@ -9,6 +15,7 @@
 <registrationEnd "Registration closed">
 <countdown "Count Down">
 <contactUs "Contact Us">
+<program "Program">
 <diamond "Diamond Level">
 <gold "Gold Level">
 <silver "Silver Level">
@@ -20,7 +27,7 @@
 <specialThanks "Click here to know more supporting partners!">
 <register "Registration Open TODAY!">
 <donateDesc """
-  We appreciate your support! Because of you, COSCUP is doing better. 
+  We appreciate your support! Because of you, COSCUP is doing better.
   The following names are ordered by sponsorship amount and number of strokes.
 """>
 <donateAnonymous """

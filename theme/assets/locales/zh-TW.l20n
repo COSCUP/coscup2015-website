@@ -1,5 +1,11 @@
 <menu "選單">
-<sponsorship "贊助 COSCUP">
+<program "議程">
+<about "簡介">
+<sponsorship {
+  *short: "贊助",
+  long: "贊助 COSCUP"
+}>
+<blog "部落格">
 <mailtoSponsor """
   如果您欲贊助 COSCUP，請與
   <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a>
@@ -21,7 +27,7 @@
 <specialThanks "請點選看看有那些支持 COSCUP 的夥伴們!">
 <register "COSCUP 報名就在今天！">
 <donateDesc """
-  謝謝所有參與 COSCUP 2014 個人贊助方案的贊助者，因為有你們，促成了活動的舉行，感謝各位! 
+  謝謝所有參與 COSCUP 2014 個人贊助方案的贊助者，因為有你們，促成了活動的舉行，感謝各位!
   以下贊助者名字依贊助款金額與姓名筆劃順序排列：
 """>
 <donateAnonymous """
