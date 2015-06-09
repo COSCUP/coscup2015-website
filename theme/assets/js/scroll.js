@@ -16,7 +16,6 @@ $(document).ready(function () {
     });
 
     function checkScroll() {
-      console.log('woot!')
       var scroll = $(window).scrollTop();
       if (scroll) {
         if (focus) {

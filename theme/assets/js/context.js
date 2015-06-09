@@ -1,22 +1,14 @@
 define(['jquery'], function($) {
-
   'use strict';
 
-  // implicit use sponsor display (which is decided by CSS media query)
-  // to detect device, to avoid use matchmedia query in JavaScript
-  // FIXME: CSS dependent test
-  var isMobile = ($('#mySwipe').css('display') ==='none')? false : true;
-  if (navigator.userAgent.match(/(Android|iPhone|iPod|iPad|IEMobile|Mobile)/)) {
-    isMobile = true;
-  }
-
-  var result = window.location.href.match(/2014\/([-\w]+)\//);
-  var lang = ((result && result[1]) || 'zh-tw').toLowerCase();
+  var path = window.location.href.match(/2015\/([-\w]+)\/?/);
+  var lang = ((path && path[1]) || 'zh-tw').toLowerCase();
+  lang = lang.substr(0, 3) + lang.substr(3).toUpperCase();
+  document.l10n.requestLocales(lang);
 
   return {
     origin: 'http://coscup.org',
-    api_path: '/2014/api',
+    api_path: '/2015/api',
     lang: lang,
-    mobile: isMobile
   }
 });

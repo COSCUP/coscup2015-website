@@ -7,16 +7,16 @@
 <meta name="description" content="COSCUP 2015, 8/15-16 中央研究院。台灣 Opens Source 相關社群聯合舉辦的大型開放源碼研討會。讓世界各地的 FLOSS 愛好者、專家藉由開源人年會齊聚一堂，分享經驗、想法與新技術，共同激發群眾投入貢獻開源 / 自由軟體。">
 
 <!--browser-->
-<script src="<?php echo $assets_path;?>/js/prefixfree.min.js"></script>
+<script src="<?php echo $assets_path;?>js/prefixfree.min.js"></script>
 
 <!--jquery-->
-<script src="<?php echo $assets_path;?>/js/jquery.min.js"></script>
-<script src="<?php echo $assets_path;?>/js/scroll.js"></script>
+<script src="<?php echo $assets_path;?>js/jquery.js"></script>
+<script src="<?php echo $assets_path;?>js/scroll.js"></script>
 
 <!--locales-->
 <!--[if gt IE 8]><!-->
-  <link rel="localization" href="<?php echo $assets_path;?>/locales/manifest.json">
-  <script src="<?php echo $assets_path;?>/js/lib/l20n.min.js"></script>
+  <link rel="localization" href="<?php echo $assets_path;?>locales/manifest.json">
+  <script src="<?php echo $assets_path;?>js/lib/l20n.min.js"></script>
 <!--<![endif]-->
 
 <!--fb shareing-->
@@ -28,15 +28,15 @@
 <meta property="og:image" content="http://coscup.org/2015/assets/og-image.jpg">
 
 <!--stylesheets-->
-<link rel="stylesheet" href="<?php echo $assets_path;?>/normalize.min.css" type= "text/css">
-<link rel="stylesheet" href="<?php echo $assets_path;?>/style.css?<?php echo $cachebusting;?>" type="text/css">
+<link rel="stylesheet" href="<?php echo $assets_path;?>normalize.min.css" type= "text/css">
+<link rel="stylesheet" href="<?php echo $assets_path;?>style.css?<?php echo $cachebusting;?>" type="text/css">
 
 <!--favicon-->
-<link rel="shortcut icon" href="<?php echo $assets_path;?>/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $assets_path;?>favicon.ico" type="image/x-icon">
 
 <!--phone-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="apple-touch-icon" href="<?php echo $assets_path;?>/ios-fav.jpg">
+<link rel="apple-touch-icon" href="<?php echo $assets_path;?>ios-fav.jpg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
