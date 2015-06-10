@@ -1,10 +1,7 @@
 <menu "menu">
 <program "Program">
 <about "About">
-<sponsorship {
-  *short: "Sponsorship",
-  long: "Sponsorship"
-}>
+<sponsorship "Sponsorship">
 <blog "Blog">
 <mailtoSponsor """
   If you are interested in sponsoring COSCUP, please contact

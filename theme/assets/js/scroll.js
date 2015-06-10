@@ -1,4 +1,4 @@
-$(document).ready(function () {
+define(['jquery'], function($) {
   function featuresFocus() {
     var features = {},
         names = ["booking", "conference", "workshop", "film"],
@@ -50,5 +50,5 @@ $(document).ready(function () {
     $(window).resize(bindCheckScroll);
   }
 
-  featuresFocus();
+  $(document).ready(featuresFocus);
 })

@@ -20,7 +20,7 @@
     <div class="title" data-l10n-id="media">媒體夥伴</div>
   </section>
   <section>
-    <div class="title" data-l10n-id="sponsorship.long">贊助 COSCUP</div>
+    <div class="title" data-l10n-id="sponsorship">贊助 COSCUP</div>
     <p data-l10n-id="mailtoSponsor">如果您欲贊助 COSCUP，請與 <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a> 聯絡。</p>
   </section>
 </aside>

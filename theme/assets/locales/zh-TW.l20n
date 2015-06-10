@@ -1,25 +1,34 @@
 <menu "選單">
 <program "議程">
 <about "簡介">
-<sponsorship {
-  *short: "贊助",
-  long: "贊助 COSCUP"
-}>
+<sponsorship "贊助">
 <blog "部落格">
 <mailtoSponsor """
   如果您欲贊助 COSCUP，請與
   <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a>
   聯絡。
 """>
-<countdownWarning "開始報名時間以 KKTIX 網站為準">
 <registrate "報名">
+<registrateContent """
+  COSCUP 十週年了！臺灣的開源社群不斷茁壯，也有越來越多不同背景的參與者跨入開源的領域，分享並交流彼此的理念和成果。最近的這兩年，開放精神更跨出了資訊領域，在社會的各處發揚體現。「開放文化」是我們為 COSCUP 2015 訂下的主軸，熱愛自由與開放的你，請和我們一起散播開源精神吧！
+""">
+<countdownWarning "開始報名時間以 KKTIX 網站為準">
 <registrationStarted "報名已經開始">
 <registrationEnd "票亭已被推倒(誤)">
+<countdown "倒數">
 <conference "大會">
 <conferenceContent """
-  The most Open activity you've ever met! COSCUP, Taiwan's largest open source conference, is celebrating its tenth year. Whether you are an open source developer, devoted promoter, skilled user, or newcomer seeking your way through the FLOSS wonderland, you're all welcomed to join the largest open source annual conference in Taiwan.
+  最熱血的夏天！最 Open 的活動！台灣最大的開源盛會 COSCUP 研討會已堂堂邁入第十年。無論你是寫開源軟體的開發者、熱衷開源軟體的推廣者、熟悉開源軟體的使用者或是想了解開源軟體的新手，都歡迎你來參加一年一度全台最大的開源人年會。
 """>
-<countdown "倒數">
+<workshop "工作坊">
+<workshopRegister "報名">
+<workshopContent """
+  在 COSCUP，除了聊開源、交朋友，更要動手做！來自 15 個社群，15 場工作坊，讓你在實作中渡過最熱血的夏天！
+""">
+<film "開源文化影展">
+<filmContent """
+  開放不只是開源軟體！COSCUP 安排了 12 部與開放文化相關、未在台灣上映的電影，還有電影討論會，讓你即使不懂寫程式，也能看電影一窺開放文化的面貌！
+""">
 <contactUs "聯絡我們">
 <diamond "鑽石級贊助">
 <gold "黃金級贊助">

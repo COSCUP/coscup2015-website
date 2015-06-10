@@ -9,15 +9,14 @@
 <!--browser-->
 <script src="<?php echo $assets_path;?>js/prefixfree.min.js"></script>
 
-<!--jquery-->
-<script src="<?php echo $assets_path;?>js/jquery.js"></script>
-<script src="<?php echo $assets_path;?>js/scroll.js"></script>
-
 <!--locales-->
 <!--[if gt IE 8]><!-->
   <link rel="localization" href="<?php echo $assets_path;?>locales/manifest.json">
   <script src="<?php echo $assets_path;?>js/lib/l20n.min.js"></script>
 <!--<![endif]-->
+
+<!--jquery-->
+<script src="<?php echo $assets_path;?>js/jquery.js"></script>
 
 <!--fb shareing-->
 <meta property="og:title" content="2015 COSCUP">
@@ -39,17 +38,3 @@
 <link rel="apple-touch-icon" href="<?php echo $assets_path;?>ios-fav.jpg">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-<!-- GA -->
-<script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-12923351-1']);
-  _gaq.push(['_setDomainName', 'coscup.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
