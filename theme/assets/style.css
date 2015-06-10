@@ -299,9 +299,17 @@ ul.menu {
 
 /* content */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 960px) {
   #content {
     display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  #content {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
   }
 }
