@@ -30,6 +30,18 @@ a {
   max-width: 660px;
 }
 
+@media screen and (max-width: 599px) {
+  .hide.at-thin {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hide.at-wide {
+    display: none;
+  }
+}
+
 /* header */
 
 #header {

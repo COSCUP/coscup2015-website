@@ -13,7 +13,9 @@ $current_path = rtrim($home_path.$this->current[0], "/") . "/";
     <div class="wrap">
       <a id="logo" href="<?php echo $home_path;?>"><img src="<?php echo $assets_path;?>/images/logo.png"/>&nbsp;</a>
       <?php include 'navbar.php';?>
-      <?php include 'locale.php';?>
+      <div class="hide at-thin">
+        <?php include 'locale.php';?>
+      </div>
     </div>
   </header>
   <div id="header-image"></div>
