@@ -26,5 +26,6 @@ $current_path = rtrim($home_path.$this->current[0], "/") . "/";
     <div class="wrap">
     </div>
   </footer>
+  <?php include 'script.php';?>
 </body>
 </html>
