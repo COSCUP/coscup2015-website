@@ -11,9 +11,14 @@
   <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a>
   聯絡。
 """>
-<countdownWarning "* 開始註冊時間以 KKTIX 網站為準">
+<countdownWarning "開始報名時間以 KKTIX 網站為準">
+<registrate "報名">
 <registrationStarted "報名已經開始">
 <registrationEnd "票亭已被推倒(誤)">
+<conference "大會">
+<conferenceContent """
+  The most Open activity you've ever met! COSCUP, Taiwan's largest open source conference, is celebrating its tenth year. Whether you are an open source developer, devoted promoter, skilled user, or newcomer seeking your way through the FLOSS wonderland, you're all welcomed to join the largest open source annual conference in Taiwan.
+""">
 <countdown "倒數">
 <contactUs "聯絡我們">
 <diamond "鑽石級贊助">

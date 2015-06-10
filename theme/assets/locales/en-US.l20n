@@ -10,10 +10,27 @@
   If you are interested in sponsoring COSCUP, please contact
   <a href="mailto:sponsorship@coscup.org">sponsorship@coscup.org</a>.
 """>
-<countdownWarning "* Check KKTIX to know actual time">
+<registrate "Registrate">
+<registrateContent """
+  The 10th anniversary of COSCUP is here! Open source communities in Taiwan have been growing rapidly these years: participants from all kinds of backgrounds gather to share their values and present their ideas, and the spirit of openness have unleashed itself to impact the society in different ways. “Open Culture” is what we'll celebrate in COSCUP 2015 -- Come and join us, FLOSS adventurers! Let's spread the spirit of open source together!
+""">
+<countdownWarning "Check KKTIX">
 <registrationStarted "Registration Started">
 <registrationEnd "Registration closed">
 <countdown "Count Down">
+<conference "Conference">
+<conferenceContent """
+  The most Open activity you've ever met! COSCUP, Taiwan's largest open source conference, is celebrating its tenth year. Whether you are an open source developer, devoted promoter, skilled user, or newcomer seeking your way through the FLOSS wonderland, you're all welcomed to join the largest open source annual conference in Taiwan.
+""">
+<workshop "Workshop">
+<workshopRegister "Register">
+<workshopContent """
+  In COSCUP, you are encouraged to make new friends, learn new things, and get your hands dirty in our workshops! Make the most out of this summer by taking part in one of the 15 workshops held by 15 communities!
+""">
+<film "Film">
+<filmContent """
+  Openness is not constrained by “open source” after all! COSCUP has arranged screenings of 12 open culture-related films that hasn't been released in Taiwan, along with panel discussions friendly to our not-so-geeky friends. You would be able to get a glimpse of open culture without knowing a single line of code!
+""">
 <contactUs "Contact Us">
 <program "Program">
 <diamond "Diamond Level">
