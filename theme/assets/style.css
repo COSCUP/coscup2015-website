@@ -67,13 +67,17 @@ a {
 
 @media screen and (min-width: 600px) {
   #header-image {
-    height: 267px;
-    background: url("images/header.jpg") center no-repeat;
+    height: 220px;
+    background: url("images/header.jpg") 75% bottom no-repeat;
+    background-size: auto 220px;
+    border-bottom: solid 2px #434343;
   }
   #mobile-header-image {
     display: none;
   }
 }
+
+
 
 @media screen and (max-width: 599px) {
   #header-image {
@@ -84,14 +88,17 @@ a {
   }
 }
 
-#header-image:after {
-  display: block;
-  content: ".";
-  background: #424242;
-  height: 2px;
-  width: 100%;
-  position: relative;
-  top: 267px;
+@media screen and (min-width: 930px){
+  #header-image {
+    height: 267px;
+    background-size: auto 267px;
+  }
+}
+
+@media screen and (min-width: 1250px){
+  #header-image {
+    background-position: center;
+  }
 }
 
 #header nav {
