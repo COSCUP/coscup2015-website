@@ -3,7 +3,7 @@
     <div class="title" >
       <span data-l10n-id="registrate"></span>
       <ul class="menu">
-        <li><a href="#" data-l10n-id="countdownWarning"></a></li>
+        <li><a href="http://coscup2015.kktix.cc/events/coscup2015-regist" data-l10n-id="countdownWarning"></a></li>
       </ul>
     </div>
     <div class="content" data-l10n-id="registrateContent">
