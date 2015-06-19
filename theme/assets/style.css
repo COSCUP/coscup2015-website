@@ -384,6 +384,10 @@ aside.right {
   order: 3;
 }
 
+@media screen and (max-width: 649px){
+  aside.right {margin: 0 auto;}
+}
+
 .aside .title {
   margin-top: 0.7em;
   font-size: 22px;
