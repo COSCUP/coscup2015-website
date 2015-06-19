@@ -169,7 +169,7 @@ a {
 
 @media screen and (min-width: 600px) {
   .feature.block {
-    padding: 2.3em 4em;
+    padding: 2.3em 2em;
     width: 50%;
   }
 }
@@ -370,7 +370,7 @@ ul.menu {
 /* asides */
 
 aside.left, aside.right {
-  width: 150px;
+  width: 200px;
 }
 
 aside.left {
@@ -395,4 +395,13 @@ aside.right {
 
 .aside a:hover {
   border-bottom: 1px dashed #3b9838;
+}
+
+.booking.feature.block .menu li a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.booking.feature.block:hover .menu li a {
+  color: white;
 }
