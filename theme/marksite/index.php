@@ -21,18 +21,21 @@ $current_path = rtrim($home_path.$this->current[0], "/") . "/";
   <div id="header-image"></div>
   <div id="mobile-header-image"><img src="<?php echo $assets_path;?>/images/mobile-header.jpg"/></div>
 
-  <div id="content">
-    <div class="main content wrap">
-      <div id="features">
-        <?php include 'events.php';?>
-        <?php include 'navbar.php';?>
-        <?php include 'archivebar.php';?>
+
+  <div class="context-with-nav">
+    <div id="content">
+      <div class="main content wrap">
+        <div id="features">
+          <?php include 'events.php';?>
+        </div>
+        <?php echo $transformed; ?>
       </div>
-      <?php echo $transformed; ?>
+      <aside class="left aside">
+      </aside>
+      <?php include 'sponsor.php';?>
     </div>
-    <aside class="left aside">
-    </aside>
-    <?php include 'sponsor.php';?>
+    <?php include 'navbar.php';?>
+    <?php include 'archivebar.php';?>
   </div>
 
   <footer id="footer">

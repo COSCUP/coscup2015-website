@@ -12,7 +12,7 @@
 <registrateContent """
   COSCUP 十週年了！臺灣的開源社群不斷茁壯，也有越來越多不同背景的參與者跨入開源的領域，分享並交流彼此的理念和成果。最近的這兩年，開放精神更跨出了資訊領域，在社會的各處發揚體現。「開放文化」是我們為 COSCUP 2015 訂下的主軸，熱愛自由與開放的你，請和我們一起散播開源精神吧！
 """>
-<countdownWarning "開始報名時間以 KKTIX 網站為準">
+<countdownWarning "一般報名 2015/06/20 20:00 開始">
 <registrationStarted "報名已經開始">
 <registrationEnd "票亭已被推倒(誤)">
 <countdown "倒數">
