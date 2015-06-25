@@ -4,6 +4,7 @@
   </section>
   <section>
     <div class="title" data-l10n-id="gold">黃金級贊助</div>
+    <div class="sponser banner"><a href="http://www.appier.com/zh/"><img src="<?php echo $assets_path;?>/images/sponsor-appier.png" alt="Appier" /></a></div>
   </section>
   <section>
     <div class="title" data-l10n-id="silver">白銀級贊助</div>
