@@ -4,6 +4,6 @@ $contents = array(
   "zh-tw" => "正體中文",
   //"zh-cn" => "简体中文",
   "en" => "English",
-  //"api" => "APIs",
+  "api" => "APIs",
 );
 $menu_hidden = array("index.php");
