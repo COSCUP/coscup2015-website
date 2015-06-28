@@ -219,6 +219,9 @@ function get_sponsors_markdown($SPONS, $DONATES, $lang = 'zh-tw')
         }
     }
 
+    $text .= "\n## 贊助 COSCUP\n";
+    $text .= "\n如果您欲贊助 COSCUP，請與 <a href=\"mailto:sponsorship@coscup.org\">sponsorship@coscup.org</a> 聯絡。\n";
+
     return $text;
 }
 
