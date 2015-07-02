@@ -214,8 +214,9 @@ function get_sponsors_markdown($SPONS, $DONATES, $lang = 'zh-tw')
               if (trim(get_sponsor_info_localize($SPON, 'desc', $lang))) {
                   $text .= sprintf('    %s', get_sponsor_info_localize($SPON, 'desc', $lang));
               }
-              $text .= "  </div>\n</div>\n";
+              $text .= "  </div>\n";
             }
+            $text .= "</div>\n";
         }
     }
 
