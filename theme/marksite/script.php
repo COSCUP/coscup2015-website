@@ -1,13 +1,17 @@
-<script src="<?php echo $assets_path;?>js/lib/require.js"></script>
+<script src="<?php echo $theme_assets_uri;?>js/lib/require.js"></script>
 <script>
     require.config({
-      baseUrl: "<?php echo $assets_path;?>js"
+      baseUrl: "<?php echo $theme_assets_uri;?>js"
     });
     //Load common code that includes config, then load the specific
     //logic for this page.
     //Do the require calls here instead of a separate file
     //so after a build there are only 2 HTTP requests instead of three.
-    require(['context'], function () {
+    require(['config', 'sidebar-sponsor'], function () {
+      require(['page/index'], null, function(err) {
+        var failedId = err.requireModules && err.requireModules[0];
+        console.log(failedId + ' is not existing');
+      });
     });
 </script>
 

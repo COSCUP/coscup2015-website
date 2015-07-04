@@ -12,11 +12,16 @@ define(function(require) {
   var api_url = context.origin + context.api_path + '/sponsors/?callback=?';
   var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'media'];
 
+  var showed = 0;
+
   function getData(callback) {
     $.getJSON(api_url, function(data) {
         // FIXME make sure it won't have event racing
         document.l10n.ready(function() {
-          callback(data);
+          if (showed == 0) {
+            callback(data);
+            showed++;
+          }
         });
       }
     );

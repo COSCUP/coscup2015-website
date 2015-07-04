@@ -412,3 +412,9 @@ aside.right {
 .booking.feature.block:hover .menu li a {
   color: white;
 }
+
+
+/* --- Mobile Shut down ----------*/
+#mySwipe {
+    display:none
+}
