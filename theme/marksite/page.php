@@ -15,6 +15,7 @@ $current_path = rtrim($home_path.$this->current[0], "/") . "/";
       <?php include 'navbar.php';?>
     </div>
   </header>
+  <div id="mySwipe" style='max-width:500px;margin:0 auto' class="swipe empty"></div>
 
   <div id="content">
     <div class="main content thin wrap">
