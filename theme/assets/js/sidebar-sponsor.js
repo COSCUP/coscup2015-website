@@ -28,7 +28,7 @@ define(function(require) {
   }
 
   function desktopSponsorList(data) {
-    var $sponsors = $('#sponsor').removeClass('empty');
+    var $sponsors = $('#sponsor').empty().removeClass('empty');
 
     // Save existing nodes
     var $existingSponsors = $sponsors.children();
@@ -95,7 +95,7 @@ define(function(require) {
           + '<img alt="' + sponsor2.name[context.lang] + '" src="' + context.origin + sponsor2.logoUrl + '"/></a>'
           + '</span></div>');
     }
-    $('#mySwipe').removeClass('empty').append($wrap);
+    $('#mySwipe').empty().removeClass('empty').append($wrap);
     require(['lib/swipe'], function(Swipe) {
       Swipe(document.getElementById('mySwipe'), {
         auto: 3000
