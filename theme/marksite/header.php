@@ -29,8 +29,6 @@
 <!--stylesheets-->
 <link rel="stylesheet" href="<?php echo $assets_path;?>normalize.min.css" type= "text/css">
 <link rel="stylesheet" href="<?php echo $assets_path;?>style.css?<?php echo $cachebusting;?>" type="text/css">
-<link rel="stylesheet" href="<?php echo $assets_path;?>mobile.css?<?php echo $cachebusting;?>" type="text/css" media="only screen and (max-width:768px)">
-
 
 <!--favicon-->
 <link rel="shortcut icon" href="<?php echo $assets_path;?>favicon.ico" type="image/x-icon">
