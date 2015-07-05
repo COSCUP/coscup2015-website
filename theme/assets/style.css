@@ -21,7 +21,7 @@ a {
 }
 
 .wrap {
-  max-width: 960px;
+  max-width: 980px;
   flex: 1;
 }
 
@@ -130,14 +130,14 @@ a {
 
 /* events */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 980px) {
   #events {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 979px) {
   #events {
     display: flex;
     flex-direction: column;
@@ -166,14 +166,14 @@ a {
   flex-direction: column;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 980px) {
   .feature.block {
     padding: 2.3em 2em;
     width: 50%;
   }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 979px) {
   .feature.block {
     padding: 0.8em 1.5em;
     width: 100%;
@@ -305,17 +305,9 @@ ul.menu {
 
 /* content */
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
   #content {
     display: flex;
-    justify-content: space-around;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 649px) {
-  #content {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
   }
 }
@@ -376,7 +368,7 @@ aside.left {
   order: 1;
 }
 
-@media screen and (max-width: 799px){
+@media screen and (max-width: 979px){
   aside.left {width: 0;}
 }
 
@@ -384,7 +376,7 @@ aside.right {
   order: 3;
 }
 
-@media screen and (max-width: 649px){
+@media screen and (max-width: 599px){
   aside.right {margin: 0 auto;}
 }
 
@@ -427,7 +419,6 @@ aside.right {
   display: none;
 }
 
-/* --- Mobile Shut down ----------*/
 #mySwipe {
     display:none
 }
