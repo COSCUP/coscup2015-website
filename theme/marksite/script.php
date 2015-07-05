@@ -1,7 +1,7 @@
-<script src="<?php echo $theme_assets_uri;?>js/lib/require.js"></script>
+<script src="<?php echo $assets_path;?>js/lib/require.js"></script>
 <script>
     require.config({
-      baseUrl: "<?php echo $theme_assets_uri;?>js"
+      baseUrl: "<?php echo $assets_path;?>js"
     });
     //Load common code that includes config, then load the specific
     //logic for this page.
