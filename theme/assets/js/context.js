@@ -11,17 +11,16 @@ define(['jquery'], function($) {
     isMobile = true;
   }
 
+  //COSCUP 2015 website only, for translating on-the-fly.
+  $(document).ready(function () {
+    lang2 = lang.substr(0, 3) + lang.substr(3).toUpperCase();
+    document.l10n.requestLocales(lang2);
+  })
+
   return {
     origin: 'http://coscup.org',
     api_path: '/2015/api',
     lang: lang,
     mobile: isMobile
   }
-
-
-  //COSCUP 2015 website only, for translating on-the-fly.
-  $(document).ready(function () {
-    lang2 = lang.substr(0, 3) + lang.substr(3).toUpperCase();
-    document.l10n.requestLocales(lang2);
-  })
 });
