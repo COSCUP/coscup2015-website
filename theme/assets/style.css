@@ -388,7 +388,7 @@ aside.right {
   aside.right {margin: 0 auto;}
 }
 
-.aside .title {
+.aside h2 {
   margin-top: 0.7em;
   font-size: 22px;
   font-weight: 400;
@@ -404,6 +404,16 @@ aside.right {
   border-bottom: 1px dashed #3b9838;
 }
 
+.aside ul {
+  padding: 0;
+  list-style: none;
+}
+
+.aside li {
+  display: block;
+  margin: 1em 0;
+}
+
 .booking.feature.block .menu li a {
   color: gray;
   text-decoration: underline;
@@ -411,4 +421,13 @@ aside.right {
 
 .booking.feature.block:hover .menu li a {
   color: white;
+}
+
+.empty {
+  display: none;
+}
+
+/* --- Mobile Shut down ----------*/
+#mySwipe {
+    display:none
 }

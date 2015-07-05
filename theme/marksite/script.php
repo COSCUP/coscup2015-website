@@ -7,7 +7,11 @@
     //logic for this page.
     //Do the require calls here instead of a separate file
     //so after a build there are only 2 HTTP requests instead of three.
-    require(['context'], function () {
+    require(['config', 'sidebar-sponsor'], function () {
+      require(['page/index'], null, function(err) {
+        var failedId = err.requireModules && err.requireModules[0];
+        console.log(failedId + ' is not existing');
+      });
     });
 </script>
 

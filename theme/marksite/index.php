@@ -20,7 +20,9 @@ $current_path = rtrim($home_path.$this->current[0], "/") . "/";
   </header>
   <div id="header-image"></div>
   <div id="mobile-header-image"><img src="<?php echo $assets_path;?>/images/mobile-header.jpg"/></div>
-
+  </div>
+  <div id="mySwipe" style='max-width:500px;margin:0 auto' class="swipe empty">
+    </div>
 
   <div class="context-with-nav">
     <div id="content">

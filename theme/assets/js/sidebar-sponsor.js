@@ -12,18 +12,23 @@ define(function(require) {
   var api_url = context.origin + context.api_path + '/sponsors/?callback=?';
   var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'media'];
 
+  var showed = 0;
+
   function getData(callback) {
     $.getJSON(api_url, function(data) {
         // FIXME make sure it won't have event racing
         document.l10n.ready(function() {
-          callback(data);
+          if (showed == 0) {
+            callback(data);
+            showed++;
+          }
         });
       }
     );
   }
 
   function desktopSponsorList(data) {
-    var $sponsors = $('#sponsor').removeClass('empty');
+    var $sponsors = $('#sponsor').empty().removeClass('empty');
 
     // Save existing nodes
     var $existingSponsors = $sponsors.children();
@@ -90,7 +95,7 @@ define(function(require) {
           + '<img alt="' + sponsor2.name[context.lang] + '" src="' + context.origin + sponsor2.logoUrl + '"/></a>'
           + '</span></div>');
     }
-    $('#mySwipe').removeClass('empty').append($wrap);
+    $('#mySwipe').empty().removeClass('empty').append($wrap);
     require(['lib/swipe'], function(Swipe) {
       Swipe(document.getElementById('mySwipe'), {
         auto: 3000
