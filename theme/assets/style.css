@@ -422,3 +422,10 @@ aside.right {
 #mySwipe {
     display:none
 }
+
+#content .team li {
+    float: left;
+    width: 10em;
+    line-height: 22px;
+    list-style: outside none circle;
+}
