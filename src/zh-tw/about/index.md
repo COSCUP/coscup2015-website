@@ -14,22 +14,22 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 
 ## 2015 籌備團隊
 
-<div class="team">
-
 ### 總召
 
 **小畢 (CrBoy)**
+
 
 ### 議程委員會
 
 主席：**hcchien**
 
-- au  
+- au
 - clkao
 - freedom
 - gugod
 - jserv
 - pingooo
+
 
 ### 銷售
 
@@ -41,6 +41,7 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - Ernest (dwchiang)
 - Jouston
 - Paddy
+
 
 ### 行銷
 
@@ -56,6 +57,7 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - Violet 阿紫
 - ws育慈
 - 雁子
+
 
 ### 場務
 
@@ -159,7 +161,8 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - Beta
 - Leo
 - 小方
-- ZAL  
+- ZAL
+
 
 ### 線路
 
@@ -199,12 +202,13 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - 皇甫
 - 竹本立里
 
+
 ### 記錄
 
 組長: **丞相**
 
 - Arvin
-- HaWay  
+- HaWay
 - Iven
 - Joean
 - Jordan
@@ -231,15 +235,18 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - 小聖
 - Zac
 
+
 ### 會計
 
 組長: **Singing Li**
 
 - Timchen119
 
+
 ### 出納
 
 **Lloyd Huang**
+
 
 ### 行政
 
@@ -259,5 +266,3 @@ COSCUP 研討會已堂堂邁入第十年，十年來不但由各地社群共同�
 - soidid
 - Toomore Chiang
 - LY
-
-</div>
