@@ -12,22 +12,22 @@ COSCUP celebrated its 10th anniversary this year. Over the past 8 years, the eve
 
 ## 2015 Organizing Team
 
-<div class="team">
-
 ### Organizer:
 
 **小畢 (CrBoy)**
 
-### Program committee
+
+### Program Committee
 
 Chair： **hcchien**
 
-- au  
+- au
 - clkao
 - freedom
 - gugod
 - jserv
 - pingooo
+
 
 ### Sponsorship
 
@@ -39,6 +39,7 @@ Team lead: **蝦蝦shiashia**
 - Ernest (dwchiang)
 - Jouston
 - Paddy
+
 
 ### Marketing
 
@@ -54,6 +55,7 @@ Team lead: **Muka**
 - Violet 阿紫
 - ws育慈
 - 雁子
+
 
 ### Field Service
 
@@ -157,7 +159,8 @@ Team lead: **MouseMs**
 - Beta
 - Leo
 - 小方
-- ZAL  
+- ZAL
+
 
 ### Network Service
 
@@ -197,12 +200,13 @@ Team lead: **David**
 - 皇甫
 - 竹本立里
 
+
 ### Documentary
 
 Team lead: **丞相**
 
 - Arvin
-- HaWay  
+- HaWay
 - Iven
 - Joean
 - Jordan
@@ -229,15 +233,18 @@ Team lead: **丞相**
 - 小聖
 - Zac
 
+
 ### Accounting
 
 Team lead: **Singing Li**
 
 - Timchen119
 
+
 ### Cashier
 
 **Lloyd Huang**
+
 
 ### Administration Assistant
 
@@ -249,7 +256,7 @@ Team lead: **BobChao**
 - 小草
 - Angelboy
 - 其詳
-- 克莉絲汀 (貓咪) 
+- 克莉絲汀 (貓咪)
 - Lorraine
 - nfsnfs
 - 小ㄐ
@@ -257,5 +264,3 @@ Team lead: **BobChao**
 - soidid
 - Toomore Chiang
 - LY
-
-</div>
