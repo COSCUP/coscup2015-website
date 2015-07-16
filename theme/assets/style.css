@@ -429,3 +429,9 @@ aside.right {
     line-height: 22px;
     list-style: outside none circle;
 }
+
+#content .team h3 {
+  padding-top:40px;
+  margin-top: 0;
+  clear: left;
+}
