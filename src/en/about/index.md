@@ -12,255 +12,264 @@ COSCUP celebrated its 10th anniversary this year. Over the past 8 years, the eve
 
 ## 2015 Organizing Team
 
-### Organizer:
+<div class="team">
+<h3>Organizer:</h3>
 
-**小畢 (CrBoy)**
+<p><strong>小畢 (CrBoy)</strong></p>
 
+<h3>Program Committee</h3>
 
-### Program Committee
+<p>Chair： <strong>hcchien</strong></p>
 
-Chair： **hcchien**
+<ul>
+<li>au</li>
+<li>clkao</li>
+<li>freedom</li>
+<li>gugod</li>
+<li>jserv</li>
+<li>pingooo</li>
+</ul>
 
-- au
-- clkao
-- freedom
-- gugod
-- jserv
-- pingooo
+<h3>Sponsorship</h3>
 
+<p>Team lead: <strong>蝦蝦shiashia</strong></p>
 
-### Sponsorship
+<ul>
+<li>奇猴</li>
+<li>其詳</li>
+<li>糖果荔枝</li>
+<li>Ernest (dwchiang)</li>
+<li>Jouston</li>
+<li>Paddy</li>
+</ul>
 
-Team lead: **蝦蝦shiashia**
+<h3>Marketing</h3>
 
-- 奇猴
-- 其詳
-- 糖果荔枝
-- Ernest (dwchiang)
-- Jouston
-- Paddy
+<p>Team lead: <strong>Muka</strong></p>
 
+<ul>
+<li>Gent</li>
+<li>RSChiang</li>
+<li>凍仁翔</li>
+<li>Orin</li>
+<li>歐西里斯</li>
+<li>影子</li>
+<li>Snake</li>
+<li>Violet 阿紫</li>
+<li>ws育慈</li>
+<li>雁子</li>
+</ul>
 
-### Marketing
+<h3>Field Service</h3>
 
-Team lead: **Muka**
+<p>Team lead: <strong>MouseMs</strong></p>
 
-- Gent
-- RSChiang
-- 凍仁翔
-- Orin
-- 歐西里斯
-- 影子
-- Snake
-- Violet 阿紫
-- ws育慈
-- 雁子
+<ul>
+<li>CCKai</li>
+<li>EAT</li>
+<li>Frank Ye</li>
+<li>博凱</li>
+<li>腦腦</li>
+<li>阿哲</li>
+<li>HenryLee</li>
+<li>Vagabond</li>
+<li>Wisely</li>
+<li>Kevin-WY</li>
+<li>lin4h</li>
+<li>遇雨</li>
+<li>裸男</li>
+<li>喬巴</li>
+<li>Anson</li>
+<li>青箭</li>
+<li>YiHung</li>
+<li>Shooter</li>
+<li>大眼</li>
+<li>HBA</li>
+<li>鈴鐺</li>
+<li>BinotaLiu</li>
+<li>BOBO</li>
+<li>崑元</li>
+<li>四貓貓</li>
+<li>Chi Luo</li>
+<li>克莉絲汀 (貓咪)</li>
+<li>浩克</li>
+<li>Trista</li>
+<li>小白</li>
+<li>貓貓</li>
+<li>Slash</li>
+<li>Paul保羅</li>
+<li>HALU</li>
+<li>珣珣</li>
+<li>Donny</li>
+<li>Emma</li>
+<li>ㄅㄌ (Erickson)</li>
+<li>fateyan (肥燕)</li>
+<li>魚丸</li>
+<li>Owen</li>
+<li>小夢</li>
+<li>傻羽</li>
+<li>空空</li>
+<li>Hashman</li>
+<li>Hikari</li>
+<li>孟穎</li>
+<li>筱君</li>
+<li>idfer</li>
+<li>一尾</li>
+<li>Jason</li>
+<li>Jefferysac</li>
+<li>Jeremy</li>
+<li>刺蝟</li>
+<li>杰翰</li>
+<li>Song</li>
+<li>葉子</li>
+<li>Jolin</li>
+<li>Kevin Chen</li>
+<li>玖楠</li>
+<li>Elvis</li>
+<li>Liyang</li>
+<li>麵包</li>
+<li>零夢</li>
+<li>megshao</li>
+<li>蜜私酒</li>
+<li>竣翔</li>
+<li>胃炎</li>
+<li>雪兒</li>
+<li>桌機哥</li>
+<li>朋朋</li>
+<li>o00winnie00o</li>
+<li>小松</li>
+<li>姿姿</li>
+<li>小葵</li>
+<li>宜倫</li>
+<li>Fish福</li>
+<li>詩庭</li>
+<li>Shouko翔子</li>
+<li>Yang</li>
+<li>Shu Hua</li>
+<li>欣哥</li>
+<li>恩榕</li>
+<li>Song</li>
+<li>sony</li>
+<li>Yiching</li>
+<li>小燁</li>
+<li>Jerry</li>
+<li>Tim</li>
+<li>熊貓</li>
+<li>taka</li>
+<li>阿吉</li>
+<li>蝦米</li>
+<li>Stanley</li>
+<li>Chris</li>
+<li>Beta</li>
+<li>Leo</li>
+<li>小方</li>
+<li>ZAL</li>
+</ul>
 
+<h3>Network Service</h3>
 
-### Field Service
+<p>Team lead: <strong>David</strong></p>
 
-Team lead: **MouseMs**
+<ul>
+<li>Conan</li>
+<li>博凱</li>
+<li>Peter Dave Hello</li>
+<li>Sars</li>
+<li>YWJamesLin</li>
+<li>掉(ry猴子</li>
+<li>DennyHuang</li>
+<li>左邊</li>
+<li>小翊</li>
+<li>DreamerC (Chen,Shang-Pin)</li>
+<li>Frank</li>
+<li>小趴</li>
+<li>腹黒い茶</li>
+<li>Infax Lai</li>
+<li>波卡Poka</li>
+<li>Jason3e7</li>
+<li>JohnDoe</li>
+<li>浚原</li>
+<li>手慢君</li>
+<li>Lorex</li>
+<li>王笑笑</li>
+<li>Ming</li>
+<li>Nalant</li>
+<li>TakoTsai</li>
+<li>胖胖</li>
+<li>PCC</li>
+<li>魚魚</li>
+<li>凌羽</li>
+<li>Starlition</li>
+<li>xxx</li>
+<li>天羽嘉龍</li>
+<li>皇甫</li>
+<li>竹本立里</li>
+</ul>
 
-- CCKai
-- EAT
-- Frank Ye
-- 博凱
-- 腦腦
-- 阿哲
-- HenryLee
-- Vagabond
-- Wisely
-- Kevin-WY
-- lin4h
-- 遇雨
-- 裸男
-- 喬巴
-- Anson
-- 青箭
-- YiHung
-- Shooter
-- 大眼
-- HBA
-- 鈴鐺
-- BinotaLiu
-- BOBO
-- 崑元
-- 四貓貓
-- Chi Luo
-- 克莉絲汀 (貓咪)
-- 浩克
-- Trista
-- 小白
-- 貓貓
-- Slash
-- Paul保羅
-- HALU
-- 珣珣
-- Donny
-- Emma
-- ㄅㄌ (Erickson)
-- fateyan (肥燕)
-- 魚丸
-- Owen
-- 小夢
-- 傻羽
-- 空空
-- Hashman
-- Hikari
-- 孟穎
-- 筱君
-- idfer
-- 一尾
-- Jason
-- Jefferysac
-- Jeremy
-- 刺蝟
-- 杰翰
-- Song
-- 葉子
-- Jolin
-- Kevin Chen
-- 玖楠
-- Elvis
-- Liyang
-- 麵包
-- 零夢
-- megshao
-- 蜜私酒
-- 竣翔
-- 胃炎
-- 雪兒
-- 桌機哥
-- 朋朋
-- o00winnie00o
-- 小松
-- 姿姿
-- 小葵
-- 宜倫
-- Fish福
-- 詩庭
-- Shouko翔子
-- Yang
-- Shu Hua
-- 欣哥
-- 恩榕
-- Song
-- sony
-- Yiching
-- 小燁
-- Jerry
-- Tim
-- 熊貓
-- taka
-- 阿吉
-- 蝦米
-- Stanley
-- Chris
-- Beta
-- Leo
-- 小方
-- ZAL
+<h3>Documentary</h3>
 
+<p>Team lead: <strong>丞相</strong></p>
 
-### Network Service
+<ul>
+<li>Arvin</li>
+<li>HaWay</li>
+<li>Iven</li>
+<li>Joean</li>
+<li>Jordan</li>
+<li>Teresa</li>
+<li>牙牙</li>
+<li>三子</li>
+<li>adaam</li>
+<li>Aminzai</li>
+<li>阿旺</li>
+<li>choupi</li>
+<li>阿豪</li>
+<li>CJOKER</li>
+<li>cras4202tw</li>
+<li>西歪街</li>
+<li>大助</li>
+<li>丹丹</li>
+<li>點點</li>
+<li>曉晰</li>
+<li>Can</li>
+<li>othree</li>
+<li>Chuck</li>
+<li>Lafin</li>
+<li>星雨</li>
+<li>小聖</li>
+<li>Zac</li>
+</ul>
 
-Team lead: **David**
+<h3>Accounting</h3>
 
-- Conan
-- 博凱
-- Peter Dave Hello
-- Sars
-- YWJamesLin
-- 掉(ry猴子
-- DennyHuang
-- 左邊
-- 小翊
-- DreamerC (Chen,Shang-Pin)
-- Frank
-- 小趴
-- 腹黒い茶
-- Infax Lai
-- 波卡Poka
-- Jason3e7
-- JohnDoe
-- 浚原
-- 手慢君
-- Lorex
-- 王笑笑
-- Ming
-- Nalant
-- TakoTsai
-- 胖胖
-- PCC
-- 魚魚
-- 凌羽
-- Starlition
-- xxx
-- 天羽嘉龍
-- 皇甫
-- 竹本立里
+<p>Team lead: <strong>Singing Li</strong></p>
 
+<ul>
+<li>Timchen119</li>
+</ul>
 
-### Documentary
+<h3>Cashier</h3>
 
-Team lead: **丞相**
+<p><strong>Lloyd Huang</strong></p>
 
-- Arvin
-- HaWay
-- Iven
-- Joean
-- Jordan
-- Teresa
-- 牙牙
-- 三子
-- adaam
-- Aminzai
-- 阿旺
-- choupi
-- 阿豪
-- CJOKER
-- cras4202tw
-- 西歪街
-- 大助
-- 丹丹
-- 點點
-- 曉晰
-- Can
-- othree
-- Chuck
-- Lafin
-- 星雨
-- 小聖
-- Zac
+<h3>Administration Assistant</h3>
 
+<p>Team lead: <strong>BobChao</strong></p>
 
-### Accounting
-
-Team lead: **Singing Li**
-
-- Timchen119
-
-
-### Cashier
-
-**Lloyd Huang**
-
-
-### Administration Assistant
-
-Team lead: **BobChao**
-
-- CCKai
-- 崧源
-- 小卓 (AL)
-- 小草
-- Angelboy
-- 其詳
-- 克莉絲汀 (貓咪)
-- Lorraine
-- nfsnfs
-- 小ㄐ
-- Lora 闇鴉
-- soidid
-- Toomore Chiang
-- LY
+<ul>
+<li>CCKai</li>
+<li>崧源</li>
+<li>小卓 (AL)</li>
+<li>小草</li>
+<li>Angelboy</li>
+<li>其詳</li>
+<li>克莉絲汀 (貓咪)</li>
+<li>Lorraine</li>
+<li>nfsnfs</li>
+<li>小ㄐ</li>
+<li>Lora 闇鴉</li>
+<li>soidid</li>
+<li>Toomore Chiang</li>
+<li>LY</li>
+</ul>
+</div>
