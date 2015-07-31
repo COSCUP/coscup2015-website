@@ -58,7 +58,7 @@ define(function(require) {
         $h2.text(document.l10n.getSync('special'));
         var $u = $('<ul class="no-decoration" />');
         var text = document.l10n.getSync('specialThanks');
-        var url = context.origin + '/2014/' + context.lang + '/sponsors/#special';
+        var url = context.origin + '/2015/' + context.lang + '/sponsors/#special';
         var $a = $('<li><a href="' + url + '" data-l10n-id="specialThanks">' + text + '</a></li>');
         $u.append($a);
         $sponsors.append($h2);
