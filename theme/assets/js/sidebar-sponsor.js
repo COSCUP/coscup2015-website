@@ -10,7 +10,7 @@ define(function(require) {
   var context = require('context');
 
   var api_url = context.origin + context.api_path + '/sponsors/?callback=?';
-  var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'media'];
+  var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'donors', 'media'];
 
   var showed = 0;
 
