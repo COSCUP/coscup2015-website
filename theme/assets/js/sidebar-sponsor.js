@@ -61,6 +61,9 @@ define(function(require) {
         var $h2 = $('<h2 data-l10n-id="personal" />');
         $h2.text(document.l10n.getSync('personal'));
         $sponsors.append($h2);
+        var $desc = $('<p data-l10n-id="donateDesc"/>')
+        $desc.text(document.l10n.getSync('donateDesc'));
+        $sponsors.append($desc);
         var $u = $('<ul class="personal no-decoration">');
         $.each(data['donors'], function (i, donors) {
           $u.append('<li>' + donors + '</li>');
