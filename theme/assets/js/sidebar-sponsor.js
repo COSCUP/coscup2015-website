@@ -10,7 +10,8 @@ define(function(require) {
   var context = require('context');
 
   var api_url = context.origin + context.api_path + '/sponsors/?callback=?';
-  var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'donors', 'media'];
+  var sponsorLevels = ['diamond', 'gold', 'silver', 'bronze', 'cohost', 'media'];
+  var donorLevels = ['donors'];
 
   var showed = 0;
 
@@ -53,6 +54,20 @@ define(function(require) {
         $sponsors.append($u);
       }
     );
+    (function addDonors () {
+        if (!data['donors']) {
+          return;
+        }
+        var $h2 = $('<h2 data-l10n-id="personal" />');
+        $h2.text(document.l10n.getSync('personal'));
+        $sponsors.append($h2);
+        var $u = $('<ul class="personal no-decoration">');
+        $.each(data['donors'], function (i, donors) {
+          $u.append('<li>' + donors + '</li>');
+        });
+        $u.append('</ul>');
+        $sponsors.append($u);
+    })();
     if (data['sponsors']['special']) {
         var $h2 = $('<h2 data-l10n-id="special" />');
         $h2.text(document.l10n.getSync('special'));
